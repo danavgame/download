@@ -1,0 +1,21 @@
+.heading{
+    font-size: 4rem;
+    text-align: center;
+}
+.download{
+    background-color: rgb(80, 5, 5);
+    border-radius: 0.4em;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 3rem;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(29, 1, 1);
+    background-size: 500vh;
+    position:absolute; 
+height:100%; 
+width:100%;
+}
