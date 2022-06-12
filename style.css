@@ -1,0 +1,67 @@
+.Heading{
+    max-width: 19rem;
+    min-width: 12.5rem;
+    text-align: center;
+}
+.download{
+    background-color: rgb(80, 5, 5);
+    border-radius: 0.4em;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 3rem;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    user-select: none;
+}
+body{
+    background-color: rgb(29, 1, 1);
+    background-size: 500vh;
+    position:absolute; 
+height:100%; 
+width:100%;
+}
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid rgba(88, 6, 6, 0.336);
+    background-color: #4b0f0f;
+    border-radius: 5em;
+  }
+  #Head{
+    margin-left: 0.5em;
+    color:#9e1b0a;
+  }
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: rgb(194, 15, 15);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: rgb(121, 10, 10);
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid rgb(90, 14, 14);
+    border-top: none;
+    color:rgb(194, 15, 15);
+    border-radius: 0.1em;
+  }
+  * a{
+      color:#ff381e;
+  }
